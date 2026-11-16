@@ -1,0 +1,17 @@
+{
+  "name": "caredose",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple CareDose Node.js and Express starter project",
+  "main": "server.js",
+  "scripts": {
+    "db:seed": "node scripts/seed.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
